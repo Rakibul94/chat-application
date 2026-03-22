@@ -4,6 +4,8 @@ WebSocket is a protocol that sits on top of TCP.Websocket establishes a full dup
 
 STOMP is another protocol that sits on top of TCP.STOMP provides rules and structures to raw messages sent in by Websocket like send,subscribe and destination.
 
-Message Broker is in charge of routing messages to rightful users or subscribers.
+Message Broker is in charge of routing messages to rightful users or subscribers.'
+
+SockJS is javascipt fall library that ensures a backup if browser fail to support STOMP.When old brower cannot support STOMP,SockJS comes in action.
 
 
